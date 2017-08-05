@@ -1,0 +1,8 @@
+# GitHub 
+language: php
+php: '7.1'
+install: 
+  - printf "\n" | pecl install yaml-2.0.0
+  - phpenv rehash
+  - composer install
+script: phpunit

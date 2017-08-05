@@ -1,0 +1,26 @@
+{    
+    "name": "memcrab/router",
+    "description": "PHP Router based on memCrab Core API",
+    "keywords": ["router", "php", "yaml", "RegExp", "expressions"],
+    "homepage": "http://memcrab.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleksandr Diudiun",
+            "email": "a.diudiun@gmail.com"
+        }
+    ],
+    "type": "package",
+    "require": {
+		"php": ">=7.1",
+        "memcrab/exceptions": "dev-master"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "6.*.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "memCrab\\Router\\": "src/"
+        }
+    }
+}
