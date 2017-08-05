@@ -1,8 +1,6 @@
 <?php
 require_once __DIR__ . "/../vendor/autoload.php";
 
-use memCrab\Router\Router;
-
 /**
  *  Corresponding Class to test Router class
  *
@@ -11,7 +9,7 @@ use memCrab\Router\Router;
  *
  *  @author Oleksandr Diudiun
  */
-class RouterTest extends \PHPUnit\Framework\TestCase {
+class DebugTest extends \PHPUnit\Framework\TestCase {
 	protected $Router;
 	protected $yaml;
 
