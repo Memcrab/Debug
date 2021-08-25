@@ -1,5 +1,5 @@
 <?php declare (strict_types = 1);
-namespace memCrab\Debug;
+namespace Memcrab\Debug;
 
 class Debug {
 	private static $enviroment = null;
