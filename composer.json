@@ -19,7 +19,7 @@
     },
 	"autoload": {
         "psr-4": {
-            "memCrab\\Debug\\": "src/"
+            "Memcrab\\Debug\\": "src/"
         }
     }
 }
